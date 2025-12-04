@@ -8,7 +8,7 @@ import * as cheerio from "cheerio";
 import { fetchAndParseHLS, ParsedHLSStream } from "./hls-utils";
 
 let BASEDOM = "https://cloudnestra.com";
-const SOURCE_URL = "https://vidsrc.store/embed";
+const SOURCE_URL = "https://vidsrc-embed.ru/embed";
 
 // Array of realistic user agents to rotate through
 const USER_AGENTS = [
