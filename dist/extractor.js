@@ -51,7 +51,7 @@ exports.getStreamContent = getStreamContent;
 const cheerio = __importStar(require("cheerio"));
 const hls_utils_1 = require("./hls-utils");
 let BASEDOM = "https://cloudnestra.com";
-const SOURCE_URL = "https://vidsrc.xyz/embed";
+const SOURCE_URL = "https://vidsrc.cc/v2/embed/";
 // Array of realistic user agents to rotate through
 const USER_AGENTS = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
