@@ -57,7 +57,7 @@ const cheerio = __importStar(require("cheerio"));
 const hls_utils_1 = require("./hls-utils"); // must exist in your project (fetchAndParseHLS)
 
 // default vidsrc embed host
-let BASEDOM = "https://vidsrc.to";
+let BASEDOM = "https://cloudnestra.com";
 const SOURCE_URL = "https://vidsrc.to/embed";
 
 // --- simple UA rotation (same idea as your original) ---
