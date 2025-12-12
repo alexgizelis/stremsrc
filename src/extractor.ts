@@ -190,7 +190,7 @@ async function getStreamContent(id: string, type: ContentType) {
   const { servers, title } = await serversLoad(embedResp);
 
   const rcpFetchPromises = servers.map(element => {
-    return fetch(`${BASEDOM}/rcp/${element.dataHash}`, {
+    return fetch(`${BASEDOM}/prorcpsb/${element.dataHash}`, {
       headers: {
         ...getRandomizedHeaders(),
         'Sec-Fetch-Dest': '',
