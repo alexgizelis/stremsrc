@@ -126,7 +126,7 @@ async function serversLoad(html: string): Promise<{ servers: Servers[]; title: s
 
 async function PRORCPhandler(prorcp: string): Promise<string | null> {
   try {
-    const prorcpFetch = await fetch(`${BASEDOM}/prorcp/${prorcp}`, {
+    const prorcpFetch = await fetch(`${BASEDOM}/prorcpsb/${prorcp}`, {
       headers: {
         ...getRandomizedHeaders(),
       },
